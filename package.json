@@ -8,8 +8,13 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "tdesign-vue": "^0.50.1",
+    "tdesign-vue-next": "^0.24.9",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.0",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -18,7 +23,14 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.12.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^8.7.1",
+    "prettier": "^2.8.0",
+    "vue-eslint-parser": "^9.1.0",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
@@ -31,6 +43,7 @@
       "eslint:recommended"
     ],
     "parserOptions": {
+      "requireConfigFile": false,
       "parser": "@babel/eslint-parser"
     },
     "rules": {}
